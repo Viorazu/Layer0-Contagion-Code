@@ -1,40 +1,47 @@
-# APIキー・認証情報
+# APIキー・認証情報（最重要）
 config.py
 .env
 *.key
 secrets.json
 bearer_token.txt
+token*
+*.pem
 
-# Pythonの一時ファイル
+# Python環境
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
 env/
 venv/
+.venv/
 ENV/
+venv*/
 
-# データファイル（大きすぎる・プライバシー）
+# 大きすぎるデータ（絶対にGitHubに上げない）
 *.json.gz
+*.csv
+*.xlsx
 data_full.json
 raw_data/
 tweets_*.json
 full_dataset/
-
-# 解析結果（大きすぎる）
 results/
 output/
-*.csv
-*.xlsx
+data/
+cache/
 
-# エディタ設定
+# エディタ・OSゴミ
 .vscode/
 .idea/
 *.swp
 *~
-
-# OS自動生成
 .DS_Store
 Thumbs.db
 *.log
+*.tmp
+
+# その他危険物
+*.zip
+*.tar.gz
+backup/
