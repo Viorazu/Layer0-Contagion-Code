@@ -1,7 +1,10 @@
-{}
-```
-
-理由明記：
-```
-Note: Raw data cannot be shared due to X's privacy policy.
-Run the script with your own API key to reproduce results.
+{
+  "note": "Raw data cannot be shared due to X's privacy policy. Run the script with your own API key to reproduce results.",
+  "sample_structure": {
+    "text": "example tweet text",
+    "created_at": "2024-01-01",
+    "user_profile": "category",
+    "engagement": 0
+  },
+  "actual_data": []
+}
