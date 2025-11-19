@@ -1,0 +1,40 @@
+# APIキー・認証情報
+config.py
+.env
+*.key
+secrets.json
+bearer_token.txt
+
+# Pythonの一時ファイル
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# データファイル（大きすぎる・プライバシー）
+*.json.gz
+data_full.json
+raw_data/
+tweets_*.json
+full_dataset/
+
+# 解析結果（大きすぎる）
+results/
+output/
+*.csv
+*.xlsx
+
+# エディタ設定
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS自動生成
+.DS_Store
+Thumbs.db
+*.log
